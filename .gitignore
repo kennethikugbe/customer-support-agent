@@ -1,0 +1,54 @@
+﻿# Secrets and local configuration
+.env
+.env.*
+!.env.example
+.aws/
+credentials
+credentials.json
+secrets.json
+secrets.*
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.crt
+*.cer
+
+# AgentCore live deployment configuration and build cache
+.bedrock_agentcore.yaml
+.bedrock_agentcore*.yaml
+.bedrock_agentcore/
+
+# Local evidence; submit screenshots/output separately, not in the public code repo
+evidence/
+screenshots/
+
+# Python environments, caches, and build output
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage/
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Editors and operating-system files
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+
+# Generated archives and logs
+*.zip
+*.log
