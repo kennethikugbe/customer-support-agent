@@ -23,9 +23,7 @@ secrets.*
 .bedrock_agentcore*.yaml
 .bedrock_agentcore/
 
-# Local evidence; submit screenshots/output separately, not in the public code repo
-evidence/
-screenshots/
+
 
 # Python environments, caches, and build output
 .venv/
