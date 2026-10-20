@@ -1,0 +1,9 @@
+﻿# Cross-session Memory retrieval and persistence log excerpt
+# Actor: MEMORY-PROOF-20261020
+# Session A: memory_proof_a_20261020_0000000006
+# Session B: memory_proof_b_20261020_0000000007
+2026-10-20T13:43:28 INFO:CSAI_Agent:Invocation started | actor=MEMORY-PROOF-20261020 | session=memory_proof_b_20261020_0000000007
+2026-10-20T13:43:28 INFO:CSAI_Agent:Memory search | actor=MEMORY-PROOF-20261020 | strategy=SEMANTIC | records=2
+2026-10-20T13:43:29 INFO:CSAI_Agent:Memory search | actor=MEMORY-PROOF-20261020 | strategy=USER_PREFERENCE | records=1
+2026-10-20T13:43:29 INFO:CSAI_Agent:Memory context prepended | actor=MEMORY-PROOF-20261020 | records=3
+2026-10-20T13:43:32 INFO:CSAI_Agent:Memory raw event saved | actor=MEMORY-PROOF-20261020 | session=memory_proof_b_20261020_0000000007 | event_id=[REDACTED]

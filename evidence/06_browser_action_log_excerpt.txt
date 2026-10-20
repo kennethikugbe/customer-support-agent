@@ -1,0 +1,15 @@
+﻿# Successful live Browser action log excerpt
+# Actor: BROWSER-DEMO-917
+# Runtime session: browser_proof_20261019_0000000005
+
+2026-10-20T12:06:59 INFO:CSAI_Agent:Prepared Playwright Node driver in /tmp.
+2026-10-20T12:07:00 INFO:CSAI_Agent:Invocation started | actor=BROWSER-DEMO-917 | session=browser_proof_20261019_0000000005
+2026-10-20T12:07:06 INFO:CSAI_Agent:Tool result | name=browser | status=success
+2026-10-20T12:07:06 INFO:CSAI_Agent:Browser action | type=init_session
+2026-10-20T12:07:08 INFO:CSAI_Agent:Tool result | name=browser | status=success
+2026-10-20T12:07:08 INFO:CSAI_Agent:Browser action | type=navigate
+2026-10-20T12:07:08 INFO:CSAI_Agent:Tool output | name=browser | Navigated to https://example.com
+2026-10-20T12:07:10 INFO:CSAI_Agent:Tool result | name=browser | status=success
+2026-10-20T12:07:10 INFO:CSAI_Agent:Browser action | type=get_text
+2026-10-20T12:07:10 INFO:CSAI_Agent:Tool output | name=browser | Text content: Example Domain
+2026-10-20T12:07:42 INFO:CSAI_Agent:Invocation completed successfully (42.310s)
